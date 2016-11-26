@@ -90,3 +90,4 @@ ENV/
 
 # Misc
 /data
+*/node_modules
