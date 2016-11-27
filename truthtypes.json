@@ -1,0 +1,32 @@
+[
+    {
+        "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.gif",
+        "ruling": "Mostly True",
+        "ruling_slug": "mostly-true"
+    },
+    {
+        "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.gif",
+        "ruling": "False",
+        "ruling_slug": "false"
+    },
+    {
+        "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-pantsonfire.gif",
+        "ruling": "Pants on Fire!",
+        "ruling_slug": "pants-fire"
+    },
+    {
+        "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.gif",
+        "ruling": "Mostly False",
+        "ruling_slug": "barely-true"
+    },
+    {
+        "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.gif",
+        "ruling": "Half-True",
+        "ruling_slug": "half-true"
+    },
+    {
+        "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/politifact/rulings/rulings-tom-true.gif",
+        "ruling": "True",
+        "ruling_slug": "true"
+    }
+]
