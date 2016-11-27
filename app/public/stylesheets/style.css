@@ -56,6 +56,10 @@ img.demo {
  margin: 20px;
 }
 
+img.desktopdemo {
+	width: 100%;
+}
+
 /* safari and chrome */
 @-webkit-keyframes wiggle {
   0% {-webkit-transform:rotate(0deg);}
