@@ -56,7 +56,7 @@ def main():
     )
 
  
-    # execute our Query
+    # Populate DB
     for statement in statements:
         cursor.execute(
             """INSERT INTO statements (statement, statement_link, ruling, ruling_text, time, source, source_image)
@@ -80,6 +80,11 @@ def main():
                                   FROM statements) t
                             WHERE t.rnum > 1);"""
     )
+
+    # trim whitespace from statement column
+    cursor.execute(
+        "UPDATE statements SET statement = regexp_replace(statement, E'[\\n\\r\\t]+', ' ', 'g' );"
+    )   
 
     # cursor.execute("SELECT * FROM statements;")
     # # retrieve the records from the database
