@@ -1,1 +1,49 @@
-TEST 3
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="stylesheets/style.css">
+<title>Awful Press</title>
+<script language="JavaScript">
+function start_scroll_down() { 
+   setTimeout(start_scroll_down_real, 3000);
+}
+
+function start_scroll_down_real() { 
+   scroll = setInterval(function(){ window.scrollBy(0, 1); console.log('start');}, 15);
+}
+
+
+function stop_scroll_down() {
+   clearInterval(scroll);
+   console.log('stop');
+}
+
+</script>
+</head>
+<body onload="start_scroll_down();">
+<img id="mainlogo" src="images/logo_c.png"/>
+
+<p class="marketing">Hello there!</p>
+<p class="long">
+	Aliquam sed nisi congue, congue turpis vitae, commodo enim. Aliquam eget turpis ac est eleifend consequat sit amet venenatis nisi. Nunc accumsan, tortor vitae vestibulum mattis, metus nisl ullamcorper tellus, a facilisis mi augue in tortor. Nam laoreet mauris ut eleifend gravida. Pellentesque ultricies sapien et dolor convallis gravida. Duis tincidunt pellentesque libero eget viverra. Nunc malesuada metus id semper ultrices.</p>
+<p class="marketing">So you think it's true?</p>
+
+<p class="long">
+Aenean a nisl eu arcu hendrerit eleifend ut sed orci. Nunc non lectus eget odio iaculis placerat non id lacus. Proin tristique sem tellus, ut dictum arcu faucibus et. Vivamus congue lacus vitae augue convallis pharetra. Ut sollicitudin ex leo, quis pretium tellus viverra vitae. Donec dolor nulla, laoreet non pulvinar sit amet, tristique et nisl. Cras blandit quam semper libero aliquam auctor. Integer vitae pharetra lectus. Aliquam pulvinar sed velit tempus accumsan. Nulla pulvinar mi nec pharetra placerat. Vestibulum porta arcu eu tristique auctor. Cras sit amet dolor convallis, posuere sapien a, lacinia est. Phasellus tristique molestie laoreet. Sed ut orci lacus.
+</p>
+<p class="marketing">So you think it's false?</p>
+<p class="long">
+Duis pretium suscipit euismod. In tempus risus vitae elit iaculis semper. Aliquam eget velit ex. Morbi in nisl non metus fringilla viverra eu nec nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum vestibulum interdum eros sed imperdiet. Ut varius diam ac justo pharetra elementum vel nec massa. Ut nec turpis diam. Donec leo ex, tristique id ipsum et, aliquet porta lacus. Proin ipsum est, accumsan a vulputate vitae, semper vitae urna.
+</p>
+
+<p class="marketing">Are you SURE?</p>
+
+<p class="long">
+Cras purus felis, luctus et fringilla sed, ultricies quis nisi. Nulla facilisi. Proin aliquam leo mi, non imperdiet risus venenatis id. Morbi sed turpis vel ipsum malesuada convallis. Praesent ante elit, aliquam sit amet quam pharetra, sagittis tincidunt augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent condimentum maximus turpis, vel vestibulum ipsum hendrerit quis. Duis lorem sem, rhoncus quis nibh vitae, viverra luctus sapien. 
+</p>
+
+<p class="marketing"><a href="aa">Download this amazing creation now!</a></p>
+
+<p class="ret"><a href="#" class="ret" onclick="stop_scroll_down();window.scrollTo(0,0);start_scroll_down();">↑ Return ↑</a></p>
+</body>
+</html>

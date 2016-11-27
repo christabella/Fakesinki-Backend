@@ -1,9 +1,78 @@
+/*
+#414141
+#f4c8fa
+#f9f5f5
+#a2a2a2
+#000000 
+*/
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: blue;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
 }
 
 a {
-  color: #00B7FF;
+  color: #f4c8fa;
+  text-decoration: none;
 }
+
+p.long {
+	text-align: left;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+.marketing {
+	font: 50px Times New Roman, Serif;
+	padding-top: 40px;
+	-webkit-animation: wiggle 7s infinite;
+	-moz-animation: wiggle 7s infinite;
+	animation: wiggle 7s infinite;
+}
+
+#mainlogo {
+	max-width: 50%;
+}
+
+p.ret {
+	margin: 60px;
+}
+
+a.ret {
+	background: #f9f5f5;
+	padding: 10px;
+	color: red;
+}
+
+
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform:rotate(0deg);}
+  91% {-webkit-transform:rotate(0deg);}
+	92% {-webkit-transform:rotate(4deg);}
+	96% {-webkit-transform:rotate(-4deg);}
+	100% {-webkit-transform:rotate(4deg);}
+}
+ 
+/* firefox */
+@-moz-keyframes wiggle {
+  0% {-moz-transform:rotate(0deg);}
+  91% {-moz-transform:rotate(0deg);}
+	92% {-moz-transform:rotate(4deg);}
+	96% {-moz-transform:rotate(-4deg);}
+	100% {-moz-transform:rotate(4deg);}
+}
+ 
+@keyframes wiggle {
+  0% {transform:rotate(0deg);}
+  91% {transform:rotate(0deg);}
+	92% {transform:rotate(4deg);}
+	96% {transform:rotate(-4deg);}
+	100% {transform:rotate(4deg);}
+}
+
