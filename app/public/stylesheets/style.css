@@ -51,12 +51,13 @@ a.ret {
 }
 
 img.demo {
- height: 50%;
+ height: 70%;
  float: left;
  margin: 20px;
 }
 
 img.desktopdemo {
+	padding-top: 30px;
 	width: 100%;
 }
 
