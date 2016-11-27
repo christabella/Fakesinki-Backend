@@ -30,6 +30,7 @@ a:hover {
 .marketing {
 	font: 50px Times New Roman, Serif;
 	padding-top: 40px;
+	color: #a2a2a2
 	-webkit-animation: wiggle 7s infinite;
 	-moz-animation: wiggle 7s infinite;
 	animation: wiggle 7s infinite;
@@ -49,6 +50,11 @@ a.ret {
 	color: red;
 }
 
+img.demo {
+ height: 50%;
+ float: left;
+ margin: 20px;
+}
 
 /* safari and chrome */
 @-webkit-keyframes wiggle {
